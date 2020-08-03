@@ -1,12 +1,9 @@
 {
-  "name": "three-js-map-vue-js",
+  "name": "three-js-map-vue",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
+  "private": false,
+  "main": "./src/index.ts",
+  "author": "Maksymilian Łakomy",
   "dependencies": {
     "three": "^0.119.1",
     "vue": "^2.6.11",
@@ -24,5 +21,18 @@
     "eslint-plugin-vue": "^6.2.2",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksymilian-lakomy/three-js-map-vue-js.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksymilian-lakomy/three-js-map-vue-js/issues"
+  },
+  "homepage": "https://github.com/maksymilian-lakomy/three-js-map-vue-js#readme"
 }
